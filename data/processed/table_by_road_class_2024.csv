@@ -1,0 +1,15 @@
+area,fsys,road_class,stations,miles,vmt_billion,stations_per_1000mi,stations_per_bvmt
+Rural,1,Interstate,1154,29462,271.83,39.17,4.25
+Rural,2,Other freeway/expressway,101,6580,40.69,15.35,2.48
+Rural,3,Other principal arterial,1398,92319,212.24,15.14,6.59
+Rural,4,Minor arterial,689,135392,151.67,5.09,4.54
+Rural,5,Major collector,426,408309,170.58,1.04,2.5
+Rural,6,Minor collector,49,258695,44.94,0.19,1.09
+Rural,7,Local,29,2025860,132.89,0.01,0.22
+Urban,1,Interstate,1684,19368,582.58,86.95,2.89
+Urban,2,Other freeway/expressway,633,12289,262.58,51.51,2.41
+Urban,3,Other principal arterial,1119,65671,478.46,17.04,2.34
+Urban,4,Minor arterial,402,111000,406.99,3.62,0.99
+Urban,5,Major collector,134,131341,216.08,1.02,0.62
+Urban,6,Minor collector,10,23693,23.1,0.42,0.43
+Urban,7,Local,31,888474,299.4,0.03,0.1

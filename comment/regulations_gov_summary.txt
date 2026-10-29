@@ -1,0 +1,9 @@
+Comment of Emmanuel Oti Nani, Independent Researcher, Springfield, Missouri, USA (individual capacity), on Docket FHWA-2026-1090, Travel Monitoring Analysis System (OMB 2125-0587).
+
+I support extending the TMAS collection. My attached comment addresses the quality and usefulness of the data for rural roads, based on a technical report built from public FHWA, Census and FARS data (DOI 10.5281/zenodo.23772244).
+
+Key findings (2024): 7,859 TMAS stations reported volume. Rural roads have 48.9% of them, 70.3% of road miles, 31.1% of VMT and 47.8% of road deaths. Rural collectors and local roads are 91.1% of rural miles and had 39,758 deaths in 2020-2024, but have only 504 stations. Rural local roads have 29 stations for 2.03 million miles. 1,130 of 3,143 counties had no active station, and they recorded 23.4% of rural road deaths. The public TMAS download has no bicycle or pedestrian stations.
+
+Recommendations, all using data FHWA already receives: (1) publish an annual coverage table by state, road class and rural/urban area; (2) add an active-station flag and consistent rural/urban coding to the public station file; (3) encourage a separate rural low-volume factor group with at least six continuous stations; (4) publish the nonmotorized station file with its urban/rural field; (5) direct new or relocated sites toward uncovered rural counties and road classes.
+
+Full comment attached (PDF).

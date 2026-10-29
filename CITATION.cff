@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: report
+title: "How Well Do Federal Traffic Count Stations Cover Rural Roads? Evidence from the Travel Monitoring Analysis System, 2015-2024"
+version: "1.0"
+date-released: "2026-10-29"
+authors:
+  - family-names: "Nani"
+    given-names: "Emmanuel Oti"
+    orcid: "https://orcid.org/0009-0009-4175-8962"
+    affiliation: "Independent Researcher, Springfield, Missouri, USA"
+license: CC-BY-4.0
+repository-code: "https://github.com/Emmanuel-Oti-Nani/tmas-rural-coverage"
+doi: "10.5281/zenodo.23772244"
+keywords:
+  - traffic monitoring
+  - TMAS
+  - rural roads
+  - continuous count stations
+  - road safety
+  - vehicle-miles traveled
+references:
+  - type: dataset
+    title: "U.S. Rural Road Fatality County Panel, 2015-2024"
+    doi: "10.5281/zenodo.23547649"
+    authors:
+      - family-names: "Nani"
+        given-names: "Emmanuel Oti"

@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy
+geopandas>=0.14
+pyogrio
+openpyxl
+matplotlib
+scikit-learn
+playwright

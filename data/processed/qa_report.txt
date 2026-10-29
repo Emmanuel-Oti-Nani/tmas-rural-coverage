@@ -1,0 +1,46 @@
+QA REPORT: Rural coverage of TMAS count stations
+============================================================
+1. Row counts
+   2015:   8069 stations from station file, 51 states/DC, 245 without usable coordinates
+   2016:   8408 stations from station file, 51 states/DC, 250 without usable coordinates
+   2017:   8519 stations from station file, 51 states/DC, 498 without usable coordinates
+   2018:   9119 stations from station file, 51 states/DC, 360 without usable coordinates
+   2019:   9472 stations from station file, 51 states/DC, 50 without usable coordinates
+   2020:   9566 stations from station file, 51 states/DC, 52 without usable coordinates
+   2021:   9604 stations from station file, 51 states/DC, 52 without usable coordinates
+   2022:   9927 stations from station file, 51 states/DC, 58 without usable coordinates
+   2023:  10399 stations from station file, 51 states/DC, 57 without usable coordinates
+   2024:  10700 stations from station file, 51 states/DC, 50 without usable coordinates
+   2025:  12742 stations from station file, 51 states/DC, 60 without usable coordinates
+   2024 lane records 38886 -> stations 10700 -> reported volume in 2024 7859
+
+2. Independent recounts
+[PASS] 2024 station count recount (10700 vs 10700)
+[PASS] 2024 listed rural share recount within 0.5 pt (46.2 vs 46.2; lane-level first value vs station mode)
+[PASS] Highway Statistics: 51 jurisdictions parsed 
+[PASS] Rural miles 2024 plausible (2.9-3.0 million) (2,956,618)
+[PASS] Rural share of miles 65-75% (70.3)
+[PASS] Rural share of VMT 25-35% (31.1)
+   Panel stats rural_by_year (for comparison): {'2015': {'deaths': 35482, 'rural_census': 18325, 'pct_rural_census': 51.6, 'rural_fars': 17715, 'pct_rural_fars': 49.9, 'ru_unknown_census': 155}, '2016': {'deaths': 37805, 'rural_census': 19361, 'pct_rural_census': 51.2, 'rural_fars': 18321, 'pct_rural_fars': 48.5, 'ru_unknown_census': 138}, '2017
+[PASS] Panel counties = 3,143 
+[PASS] Every 2024 station has a rural/urban label 
+[PASS] Stations with coordinates matched to a panel county >= 97% (98.5%)
+[PASS] Rural+urban active stations = active total minus unlabeled 
+[PASS] Broad-class stations sum to active labeled stations (fsys known) (7859)
+
+3. Things to know
+   - 6 stations have lanes coded rural and urban; the most common label is used.
+   - 18 stations' coordinates fall just across a state line (border sites); county from coordinates kept.
+   - 107 station IDs appear in 2024 volume files but not in the 2024 station file; excluded.
+   - FHWA and Census rural labels agree for 87.6% of active 2024 stations.
+   - The TMAS station download contains only motorized station records (record type 'S'); no bicycle or pedestrian stations.
+[PASS] Only record type S in 2024 station files (['S'])
+
+4. Spot checks you can verify by hand
+   29-001823: state MO, F_System 1R, lat 40.163807, lon -95.28592, Census label R, county 29087, days with 2024 volume 347
+   05-000010: not in 2024 file
+   47-000003: state TN, F_System 3U, lat 35.773695, lon -83.538119, Census label U, county 47155, days with 2024 volume 120
+   06-099910: state CA, F_System 4U, lat 39.22736, lon -120.005709, Census label U, county 32031, days with 2024 volume 258
+   48-000101: not in 2024 file
+
+RESULT: 0 failed checks

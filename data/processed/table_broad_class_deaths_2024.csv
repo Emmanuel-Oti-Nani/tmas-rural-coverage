@@ -1,0 +1,9 @@
+area,road_class,stations,miles,vmt_billion,deaths_2020_2024,stations_per_bvmt,deaths_per_station
+Rural,interstate_fwy,1255,36042,312.5,13791,4.02,11.0
+Rural,arterial,2087,227711,363.9,44121,5.73,21.1
+Rural,collector,475,667004,215.5,27824,2.2,58.6
+Rural,local,29,2025860,132.9,11934,0.22,411.5
+Urban,interstate_fwy,2317,31657,845.2,21379,2.74,9.2
+Urban,arterial,1521,176671,885.4,63470,1.72,41.7
+Urban,collector,144,155034,239.2,11729,0.6,81.5
+Urban,local,31,888474,299.4,9779,0.1,315.5

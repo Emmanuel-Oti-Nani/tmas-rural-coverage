@@ -1,0 +1,17 @@
+{
+  "_comment": "Author block for this project. Every document, citation file, Zenodo record and commit reads from here, so the name appears identically everywhere.",
+  "authors": [
+    {
+      "name": "Emmanuel Oti Nani",
+      "family": "Nani",
+      "given": "Emmanuel Oti",
+      "orcid": "0009-0009-4175-8962",
+      "email": "en289s@missouristate.edu",
+      "github": "Emmanuel-Oti-Nani",
+      "affiliation": "Independent Researcher, Springfield, Missouri, USA",
+      "roles": ["Conceptualization", "Methodology", "Formal analysis", "Validation", "Writing - original draft", "Writing - review and editing"],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}
