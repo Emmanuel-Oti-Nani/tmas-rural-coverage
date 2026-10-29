@@ -214,7 +214,7 @@ body {{ font-size: 11pt; }}</style></head><body>
 {banner}
 <div class="meta">Docket No. FHWA-2026-1090 &middot; OMB Control No. 2125-0587 &middot; FR Doc. 2026-20718, 91 FR 64735 (October 9, 2026)</div>
 <h1 style="font-size:14pt">Comment on the Travel Monitoring Analysis System (TMAS) information collection: rural road and nonmotorized coverage of count stations</h1>
-<div class="meta">Submitted by {A["name"]}, {A["affiliation"]}<br>ORCID {A["orcid"]} &middot; {A["email"]}<br>{TODAY}</div>
+<div class="meta">Submitted by {A["name"]}, {A["affiliation"]}<br>ORCID {A["orcid"]}<br>{TODAY}</div>
 
 <p>I submit this comment in my individual capacity as an independent researcher in transportation and regional planning. I do not represent any agency or organization. The comment draws on a technical report I prepared from public FHWA, Census, and FARS data: <i>How Well Do Federal Traffic Count Stations Cover Rural Roads? Evidence from the Travel Monitoring Analysis System, 2015&ndash;2024</i> (DOI {DOI}). The report's code and data are public.</p>
 
