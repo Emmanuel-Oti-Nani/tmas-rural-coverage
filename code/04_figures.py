@@ -88,11 +88,11 @@ s = pd.read_csv(f"{P}/stations_2024.csv")
 s = s[s.active_2024 & s.lat.notna() & ~s.state.isin(["AK", "HI"])]
 pts = gpd.GeoDataFrame(s, geometry=gpd.points_from_xy(s.lon, s.lat), crs=4269).to_crs(5070)
 fig, ax = plt.subplots(figsize=(7.5, 4.8))
-cty[cty.stations.fillna(0) == 0].plot(ax=ax, color="#cfcdc6", edgecolor="white", lw=0.1)
-cty[cty.stations.fillna(0) > 0].plot(ax=ax, color="#f4f3f0", edgecolor="white", lw=0.1)
+cty[cty.stations.fillna(0) == 0].plot(ax=ax, color="#cfcdc6", edgecolor="white", lw=0.1, rasterized=True)
+cty[cty.stations.fillna(0) > 0].plot(ax=ax, color="#f4f3f0", edgecolor="white", lw=0.1, rasterized=True)
 for ru, c, lab in (("U", URBAN, "Urban station"), ("R", RURAL, "Rural station")):
     g = pts[pts.ru_fhwa == ru]
-    g.plot(ax=ax, color=c, markersize=1.6, label=f"{lab} ({len(g):,})")
+    g.plot(ax=ax, color=c, markersize=1.6, label=f"{lab} ({len(g):,})", rasterized=True)
 ax.set_axis_off()
 from matplotlib.patches import Patch
 h, l = ax.get_legend_handles_labels()
